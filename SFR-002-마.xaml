@@ -1,0 +1,416 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="SFR_002_마" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1291,1179" sap2010:WorkflowViewState.IdRef="SFR_002_마_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Flowchart DisplayName="SFR_002_마" sap:VirtualizedContainerService.HintSize="634,636" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+        <av:Size x:Key="ShapeSize">60,75</av:Size>
+        <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,127.5</av:PointCollection>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Flowchart.StartNode>
+      <x:Reference>__ReferenceID1</x:Reference>
+    </Flowchart.StartNode>
+    <FlowStep x:Name="__ReferenceID1">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">200,127.5</av:Point>
+          <av:Size x:Key="ShapeSize">200,55</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">300,182.5 300,252.5</av:PointCollection>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ApiKey="MCOf2fYbft97r9Hj8fUOxHXZyCgiQJAnzkUTai9Eys30jsh9YArnvF/FmCYlr9fDk0DA9oxgAaoKNUKW2BzTqA==" CvMethod="ElementDetection, OCR" DesignTimeCacheId="f7ff27d7-c3da-4221-9ce0-4a84ad606ed2" DisplayName="CV Screen Scope 'qemu-system-x86_64.exe ...'" sap:VirtualizedContainerService.HintSize="200,55" sap2010:WorkflowViewState.IdRef="CVScope_1" Server="https://cv.uipath.com" Version="V2">
+        <p:CVScope.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="실행" sap2010:WorkflowViewState.IdRef="Sequence_1">
+              <p:CvClickWithDescriptor CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_DOUBLE" Descriptor="[&quot;Target: Icon (238,618,55,54)&quot;]" DesignTimeCacheId="f7ff27d7-c3da-4221-9ce0-4a84ad606ed2" DesignTimeScaleFactor="1" DisplayName="CV Click - 아이콘" sap:VirtualizedContainerService.HintSize="400,140" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_1" InformativeScreenshot="148ede057b9719323c57b5e691d73f9e" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V2">
+                <p:CvClickWithDescriptor.CursorPosition>
+                  <ui:CursorPosition Position="Center">
+                    <ui:CursorPosition.OffsetX>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetX>
+                    <ui:CursorPosition.OffsetY>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetY>
+                  </ui:CursorPosition>
+                </p:CvClickWithDescriptor.CursorPosition>
+                <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                  <uc:CvDescriptor>
+                    <uc:CvDescriptor.Target>
+                      <uc:CvElementDescriptor DesignTimeArea="238, 618, 55, 54" ElementType="Icon" ImageBase64="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" />
+                    </uc:CvDescriptor.Target>
+                  </uc:CvDescriptor>
+                </p:CvClickWithDescriptor.DesignTimeDescriptor>
+                <p:CvClickWithDescriptor.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="cdfb3e70-d8a9-4cb3-acfb-e1498361af8d">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </p:CvClickWithDescriptor.Target>
+              </p:CvClickWithDescriptor>
+            </Sequence>
+          </ActivityAction>
+        </p:CVScope.Body>
+        <p:CVScope.DesignTimeCacheContainer>
+          <uc:CvCacheContainer>
+            <uc:CvCacheContainer.Caches>
+              <scg:List x:TypeArguments="uc:CVCache" Capacity="1">
+                <uc:CVCache DisplayName="기본 화면" Id="f7ff27d7-c3da-4221-9ce0-4a84ad606ed2" InformativeScreenshot="10c226a0da4db4da83459a0e8189cb47" LogicalPosition="1469, -1161" OcrText=". 6:23 @ Wednesday, May 12 27°C G P:" Position="1469, -1161" ScreenshotGuid="517fa522-9cc1-47e4-8733-b58aa06534ed" ServerVersion="1">
+                  <uc:CVCache.CvUiElements>
+                    <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="64">
+                      <uc:CvElementInfo Category="ArrowButton" Region="81, 762, 28, 29" />
+                      <uc:CvElementInfo Category="Icon" Region="238, 618, 55, 54" />
+                      <uc:CvElementInfo Category="Icon" Region="80, 72, 17, 18" />
+                      <uc:CvElementInfo Category="Icon" Region="318, 700, 30, 31" />
+                      <uc:CvElementInfo Category="Icon" Region="104, 615, 55, 55" />
+                      <uc:CvElementInfo Category="InputBox" Region="44, 690, 310, 48" />
+                      <uc:CvElementInfo Category="Icon" Region="50, 700, 29, 28" />
+                      <uc:CvElementInfo Category="Icon" Region="254, 135, 29, 28" />
+                      <uc:CvElementInfo Category="MaximizeButton" Region="59, 72, 20, 18" />
+                      <uc:CvElementInfo Category="Icon" Region="326, 71, 18, 19" />
+                      <uc:CvElementInfo Category="Icon" Region="60, 72, 18, 19" />
+                      <uc:CvElementInfo Category="Icon" Region="357, 71, 17, 20" />
+                      <uc:CvElementInfo Category="MaximizeButton" Confidence="Runtime" Region="75, 24, 19, 19" />
+                      <uc:CvElementInfo Category="RadioButton" Confidence="Runtime" Region="254, 136, 27, 26" />
+                      <uc:CvElementInfo Category="MaximizeButton" Confidence="Runtime" Region="80, 72, 19, 19" />
+                      <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="289, 767, 21, 21" />
+                      <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="75, 25, 18, 18" />
+                      <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="55, 704, 25, 23" />
+                      <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="341, 73, 16, 18" />
+                      <uc:CvElementInfo Category="CheckBox" Confidence="Runtime" Region="292, 768, 16, 17" />
+                      <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="186, 765, 23, 23" />
+                      <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="105, 614, 53, 54" />
+                      <uc:CvElementInfo Category="RadioButton" Confidence="Runtime" Region="75, 25, 18, 18" />
+                      <uc:CvElementInfo Category="ArrowButton" Confidence="Runtime" Region="325, 71, 20, 20" />
+                      <uc:CvElementInfo Category="RadioButton" Confidence="Runtime" Region="188, 765, 21, 23" />
+                      <uc:CvElementInfo Category="CloseButton" Confidence="Runtime" Region="76, 25, 18, 19" />
+                      <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="240, 618, 54, 56" />
+                      <uc:CvElementInfo Category="ArrowButton" Confidence="Runtime" Region="344, 69, 28, 23" />
+                      <uc:CvElementInfo Category="CheckBox" Confidence="Runtime" Region="105, 617, 52, 53" />
+                      <uc:CvElementInfo Category="CloseButton" Confidence="Runtime" Region="26, 72, 27, 18" />
+                      <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="75, 24, 18, 18" />
+                      <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="155, 25, 89, 16" />
+                      <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="306, 695, 46, 40" />
+                      <uc:CvElementInfo Category="CloseButton" Confidence="Runtime" Region="357, 72, 16, 18" />
+                      <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="331, 70, 41, 22" />
+                      <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="176, 761, 40, 30" />
+                      <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="59, 72, 19, 19" />
+                      <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="84, 764, 24, 24" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="282, 759, 76, 39" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="45, 722, 69, 42" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="315, 758, 64, 43" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="104, 756, 188, 45" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="42, 691, 77, 61" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="17, 753, 41, 46" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="194, 757, 158, 43" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="105, 756, 39, 45" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="19, 10, 83, 60" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="185, 766, 28, 44" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="27, 751, 53, 48" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="0, 613, 5, 36" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="205, 798, 71, 61" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="35, 732, 84, 53" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="328, 735, 47, 27" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="55, 732, 226, 34" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="38, 605, 278, 83" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="151, 27, 118, 17" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="86, 757, 44, 43" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="0, 648, 5, 31" />
+                      <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="0, 109, 6, 32" />
+                    </scg:List>
+                  </uc:CVCache.CvUiElements>
+                  <uc:CVCache.OcrTexts>
+                    <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="16">
+                      <uc:OcrTextInfo Region="79, 28, 8, 10" Text="." />
+                      <uc:OcrTextInfo Region="27, 73, 26, 15" Text="6:23" />
+                      <uc:OcrTextInfo Region="63, 75, 10, 11" Text="@" />
+                      <uc:OcrTextInfo Region="65, 139, 113, 24" Text="Wednesday," />
+                      <uc:OcrTextInfo Region="180, 139, 42, 23" Text="May" />
+                      <uc:OcrTextInfo Region="224, 139, 26, 21" Text="12" />
+                      <uc:OcrTextInfo Region="282, 139, 48, 20" Text="27°C" />
+                      <uc:OcrTextInfo Region="50, 699, 29, 27" Text="G" />
+                      <uc:OcrTextInfo Region="322, 705, 19, 20" Text="P:" />
+                    </scg:List>
+                  </uc:CVCache.OcrTexts>
+                </uc:CVCache>
+              </scg:List>
+            </uc:CvCacheContainer.Caches>
+          </uc:CvCacheContainer>
+        </p:CVScope.DesignTimeCacheContainer>
+        <p:CVScope.OCREngine>
+          <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd:Rectangle, x:String))">
+            <ActivityFunc.Argument>
+              <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+            </ActivityFunc.Argument>
+            <p1:UiPathScreenOCR Endpoint="{x:Null}" Output="{x:Null}" Text="{x:Null}" ApiKey="MCOf2fYbft97r9Hj8fUOxHXZyCgiQJAnzkUTai9Eys30jsh9YArnvF/FmCYlr9fDk0DA9oxgAaoKNUKW2BzTqA==" ComputeSkewAngle="False" ExtractWords="True" sap:VirtualizedContainerService.HintSize="334,83" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_1" Image="[Image]" Language="en" Profile="Screen" Scale="1" />
+          </ActivityFunc>
+        </p:CVScope.OCREngine>
+        <p:CVScope.Target>
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9e4f9885-08fe-4042-ac5a-852234c62c70" InformativeScreenshot="c6f8afc23fbaa53a966377747d60ae31" Selector="&lt;wnd app='qemu-system-x86_64.exe' cls='Qt5QWindowIcon' title='Android Emulator - Pixel_3a_API_30_x86:5554' /&gt;" WaitForReady="INTERACTIVE">
+            <ui:Target.TimeoutMS>
+              <InArgument x:TypeArguments="x:Int32" />
+            </ui:Target.TimeoutMS>
+          </ui:Target>
+        </p:CVScope.Target>
+        <p:CVScope.UseLocalServer>
+          <InArgument x:TypeArguments="x:Boolean" />
+        </p:CVScope.UseLocalServer>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </p:CVScope>
+      <FlowStep.Next>
+        <FlowStep x:Name="__ReferenceID0">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <av:Point x:Key="ShapeLocation">200,252.5</av:Point>
+              <av:Size x:Key="ShapeSize">200,55</av:Size>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ApiKey="MCOf2fYbft97r9Hj8fUOxHXZyCgiQJAnzkUTai9Eys30jsh9YArnvF/FmCYlr9fDk0DA9oxgAaoKNUKW2BzTqA==" CvMethod="ElementDetection, OCR" DesignTimeCacheId="d5fc43b2-2064-4930-9972-e25f32f3176a" DisplayName="CV Screen Scope 'qemu-system-x86_64.exe ...'" sap:VirtualizedContainerService.HintSize="200,55" sap2010:WorkflowViewState.IdRef="CVScope_2" Server="https://cv.uipath.com" Version="V2">
+            <p:CVScope.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="실행" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <p:CvClickWithDescriptor CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_DOUBLE" Descriptor="[&quot;Target: ArrowButton (83,764,24,25)&quot; +&#xD;&#xA;&quot;Anchor: Image (44,765,37,65)&quot;]" DesignTimeCacheId="d5fc43b2-2064-4930-9972-e25f32f3176a" DesignTimeScaleFactor="1" DisplayName="CV Click - ArrowButton" sap:VirtualizedContainerService.HintSize="400,140" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_2" InformativeScreenshot="41713fbca964c9c2cb0cc42fe7469efd" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V2">
+                    <p:CvClickWithDescriptor.CursorPosition>
+                      <ui:CursorPosition Position="Center">
+                        <ui:CursorPosition.OffsetX>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetX>
+                        <ui:CursorPosition.OffsetY>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetY>
+                      </ui:CursorPosition>
+                    </p:CvClickWithDescriptor.CursorPosition>
+                    <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                      <uc:CvDescriptor>
+                        <uc:CvDescriptor.Anchors>
+                          <x:Array Type="uc:CvElementDescriptor">
+                            <uc:CvElementDescriptor DesignTimeArea="44, 765, 37, 65" ElementType="Image" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACUAAABBCAYAAABW+21PAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHwSURBVGhD7ZPRqsMwDEO7///o3ZsRbaeqknpve7BBRJZkYyg9nj9YfVS1+qhq9VHV6qOq1UdVq4+qVh9VrT6qWn1UtfqoavVR1eqjqtVHVauPqlYfVa0+qlq/edTj8XgOHMdxgnR5/jLHnrrDPebp/b+fxT4orj5pfB30Bc8IJ4/h8hA0zu80cWaWGk0PJqzyg6v3PTuPQO4ThHiBPKKS22WSN3EVOZAWpIV3Mw7PG98v2XkCffE0s/MM94tcl5Y8+akvZ1OQqPp8Hcw75Nt7HxaoM1f1k8ceyGZaQo98lRtI3t3M5fOp3w5N3C1Pu6il2ZeWBr6BZsa72sWM3sSR+Rg0EbhozHovTZy9v8RJG42QAvSpp5zeVU4e4ZmJz7CgwOp17hjeyt95A9PLBgfFpRPKrKDMas77F1KIrziRdGnS2btOP2aHeLeE/S4/UMkIzJ5m3gRB9iudfeJ86QvS3Z/8HL6DFqSFDnqrrGuzP5t8HZ5lTr37jtUe06L45urJ6Sfu4A5qjnfGBXEOu5dyKbPzd9r27yOUYVazgvSEnU9v8quxg3JhUUTKuxf6s8DXhwT3VjkiZbTnsmsVTlx90tgT3+ShX0UODe69OH3mPMMc+6RPLI0XXE99NeNgVu9EXiTNdWri1DxLnrJX7Xj+Abf5EQJCqtsCAAAAAElFTkSuQmCC" />
+                          </x:Array>
+                        </uc:CvDescriptor.Anchors>
+                        <uc:CvDescriptor.Target>
+                          <uc:CvElementDescriptor DesignTimeArea="83, 764, 24, 25" ElementType="ArrowButton" />
+                        </uc:CvDescriptor.Target>
+                      </uc:CvDescriptor>
+                    </p:CvClickWithDescriptor.DesignTimeDescriptor>
+                    <p:CvClickWithDescriptor.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="0b35d584-11ee-4fcf-a023-4020039d6ce0">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </p:CvClickWithDescriptor.Target>
+                  </p:CvClickWithDescriptor>
+                  <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="400,22" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                </Sequence>
+              </ActivityAction>
+            </p:CVScope.Body>
+            <p:CVScope.DesignTimeCacheContainer>
+              <uc:CvCacheContainer>
+                <uc:CvCacheContainer.Caches>
+                  <scg:List x:TypeArguments="uc:CVCache" Capacity="1">
+                    <uc:CVCache DisplayName="기본 화면" Id="d5fc43b2-2064-4930-9972-e25f32f3176a" InformativeScreenshot="42e62e1e147cb00a895bc749cc4d8b30" LogicalPosition="1469, -1161" OcrText=". 6:24 O G Welcome to Chrome By using Chrome, you agree to the Google Terms of Service, and the Google Chrome and Chrome OS Additional Terms of Service. Help make Chrome better by sending usage statistics and crash reports to Google. Accept &amp; continue" Position="1469, -1161" ScreenshotGuid="4bdd5be9-6363-4e27-b793-69879f935dce" ServerVersion="1">
+                      <uc:CVCache.CvUiElements>
+                        <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="64">
+                          <uc:CvElementInfo Category="CheckBox" Region="48, 526, 19, 19" />
+                          <uc:CvElementInfo Category="Icon" Region="81, 73, 16, 18" />
+                          <uc:CvElementInfo Category="Button" Region="133, 708, 132, 34" />
+                          <uc:CvElementInfo Category="ArrowButton" Region="83, 764, 24, 25" />
+                          <uc:CvElementInfo Category="Icon" Region="138, 286, 121, 118" />
+                          <uc:CvElementInfo Category="Icon" Region="289, 766, 22, 22" />
+                          <uc:CvElementInfo Category="Icon" Region="60, 72, 18, 18" />
+                          <uc:CvElementInfo Category="Icon" Region="326, 71, 19, 21" />
+                          <uc:CvElementInfo Category="Icon" Region="342, 73, 15, 17" />
+                          <uc:CvElementInfo Category="Icon" Region="358, 73, 14, 17" />
+                          <uc:CvElementInfo Category="Icon" Region="188, 766, 20, 22" />
+                          <uc:CvElementInfo Category="ArrowButton" Confidence="Runtime" Region="325, 71, 20, 21" />
+                          <uc:CvElementInfo Category="RadioButton" Confidence="Runtime" Region="75, 25, 19, 19" />
+                          <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="341, 73, 16, 17" />
+                          <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="75, 25, 18, 17" />
+                          <uc:CvElementInfo Category="RadioButton" Confidence="Runtime" Region="189, 767, 19, 20" />
+                          <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="22, 71, 37, 21" />
+                          <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="84, 766, 21, 22" />
+                          <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="61, 74, 16, 15" />
+                          <uc:CvElementInfo Category="MaximizeButton" Confidence="Runtime" Region="60, 72, 18, 17" />
+                          <uc:CvElementInfo Category="MaximizeButton" Confidence="Runtime" Region="75, 24, 20, 18" />
+                          <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="358, 73, 15, 17" />
+                          <uc:CvElementInfo Category="CloseButton" Confidence="Runtime" Region="76, 25, 17, 18" />
+                          <uc:CvElementInfo Category="InputBox" Confidence="Runtime" Region="154, 27, 88, 16" />
+                          <uc:CvElementInfo Category="CheckBox" Confidence="Runtime" Region="292, 769, 16, 17" />
+                          <uc:CvElementInfo Category="MinimizeButton" Confidence="Runtime" Region="341, 73, 16, 17" />
+                          <uc:CvElementInfo Category="ArrowButton" Confidence="Runtime" Region="342, 73, 17, 18" />
+                          <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="31, 753, 347, 46" />
+                          <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="76, 25, 18, 18" />
+                          <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="331, 70, 36, 21" />
+                          <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="154, 25, 93, 16" />
+                          <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="140, 286, 116, 121" />
+                          <uc:CvElementInfo Category="ArrowButton" Confidence="Runtime" Region="357, 73, 15, 17" />
+                          <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="46, 524, 22, 24" />
+                          <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="286, 754, 87, 42" />
+                          <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="329, 755, 47, 42" />
+                          <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="130, 704, 133, 41" />
+                          <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="7, 783, 11, 17" />
+                          <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="349, 0, 51, 4" />
+                          <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="139, 738, 226, 18" />
+                          <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="324, 714, 52, 39" />
+                          <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="175, 752, 109, 45" />
+                          <uc:CvElementInfo Category="Cell" Confidence="Runtime" Region="359, 75, 29, 195" />
+                        </scg:List>
+                      </uc:CVCache.CvUiElements>
+                      <uc:CVCache.OcrTexts>
+                        <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="64">
+                          <uc:OcrTextInfo Region="80, 28, 8, 10" Text="." />
+                          <uc:OcrTextInfo Region="27, 74, 28, 14" Text="6:24" />
+                          <uc:OcrTextInfo Region="61, 73, 16, 15" Text="O" />
+                          <uc:OcrTextInfo Region="84, 75, 9, 12" Text="G" />
+                          <uc:OcrTextInfo Region="105, 239, 85, 20" Text="Welcome" />
+                          <uc:OcrTextInfo Region="192, 241, 22, 18" Text="to" />
+                          <uc:OcrTextInfo Region="216, 240, 75, 19" Text="Chrome" />
+                          <uc:OcrTextInfo Region="60, 431, 15, 15" Text="By" />
+                          <uc:OcrTextInfo Region="76, 431, 33, 15" Text="using" />
+                          <uc:OcrTextInfo Region="111, 430, 49, 14" Text="Chrome," />
+                          <uc:OcrTextInfo Region="160, 433, 23, 13" Text="you" />
+                          <uc:OcrTextInfo Region="184, 433, 35, 13" Text="agree" />
+                          <uc:OcrTextInfo Region="219, 431, 15, 12" Text="to" />
+                          <uc:OcrTextInfo Region="234, 430, 21, 13" Text="the" />
+                          <uc:OcrTextInfo Region="256, 430, 42, 16" Text="Google" />
+                          <uc:OcrTextInfo Region="299, 430, 38, 14" Text="Terms" />
+                          <uc:OcrTextInfo Region="53, 450, 14, 14" Text="of" />
+                          <uc:OcrTextInfo Region="68, 451, 46, 15" Text="Service," />
+                          <uc:OcrTextInfo Region="116, 451, 23, 14" Text="and" />
+                          <uc:OcrTextInfo Region="139, 451, 21, 13" Text="the" />
+                          <uc:OcrTextInfo Region="161, 450, 43, 16" Text="Google" />
+                          <uc:OcrTextInfo Region="205, 450, 46, 15" Text="Chrome" />
+                          <uc:OcrTextInfo Region="253, 451, 23, 13" Text="and" />
+                          <uc:OcrTextInfo Region="277, 450, 47, 14" Text="Chrome" />
+                          <uc:OcrTextInfo Region="325, 451, 19, 13" Text="OS" />
+                          <uc:OcrTextInfo Region="117, 472, 60, 13" Text="Additional" />
+                          <uc:OcrTextInfo Region="179, 472, 37, 14" Text="Terms" />
+                          <uc:OcrTextInfo Region="216, 471, 15, 14" Text="of" />
+                          <uc:OcrTextInfo Region="231, 472, 47, 13" Text="Service." />
+                          <uc:OcrTextInfo Region="81, 518, 29, 16" Text="Help" />
+                          <uc:OcrTextInfo Region="111, 518, 33, 13" Text="make" />
+                          <uc:OcrTextInfo Region="145, 518, 47, 13" Text="Chrome" />
+                          <uc:OcrTextInfo Region="193, 519, 36, 12" Text="better" />
+                          <uc:OcrTextInfo Region="230, 518, 16, 16" Text="by" />
+                          <uc:OcrTextInfo Region="247, 519, 47, 15" Text="sending" />
+                          <uc:OcrTextInfo Region="295, 520, 37, 14" Text="usage" />
+                          <uc:OcrTextInfo Region="81, 540, 54, 14" Text="statistics" />
+                          <uc:OcrTextInfo Region="136, 540, 24, 14" Text="and" />
+                          <uc:OcrTextInfo Region="161, 540, 33, 13" Text="crash" />
+                          <uc:OcrTextInfo Region="195, 542, 43, 14" Text="reports" />
+                          <uc:OcrTextInfo Region="239, 541, 14, 12" Text="to" />
+                          <uc:OcrTextInfo Region="254, 540, 45, 16" Text="Google." />
+                          <uc:OcrTextInfo Region="142, 717, 46, 16" Text="Accept" />
+                          <uc:OcrTextInfo Region="188, 717, 10, 14" Text="&amp;" />
+                          <uc:OcrTextInfo Region="199, 717, 57, 14" Text="continue" />
+                        </scg:List>
+                      </uc:CVCache.OcrTexts>
+                    </uc:CVCache>
+                  </scg:List>
+                </uc:CvCacheContainer.Caches>
+              </uc:CvCacheContainer>
+            </p:CVScope.DesignTimeCacheContainer>
+            <p:CVScope.OCREngine>
+              <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd:Rectangle, x:String))">
+                <ActivityFunc.Argument>
+                  <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                </ActivityFunc.Argument>
+                <p1:UiPathScreenOCR Endpoint="{x:Null}" Output="{x:Null}" Text="{x:Null}" ApiKey="MCOf2fYbft97r9Hj8fUOxHXZyCgiQJAnzkUTai9Eys30jsh9YArnvF/FmCYlr9fDk0DA9oxgAaoKNUKW2BzTqA==" ComputeSkewAngle="False" ExtractWords="True" sap:VirtualizedContainerService.HintSize="334,83" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_1" Image="[Image]" Language="en" Profile="Screen" Scale="1" />
+              </ActivityFunc>
+            </p:CVScope.OCREngine>
+            <p:CVScope.Target>
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="69fa29e2-366e-45c6-8e59-7df4a2181e2e" InformativeScreenshot="79c49095c34dc2620ad84d89fd5ff3bf" Selector="&lt;wnd app='qemu-system-x86_64.exe' cls='Qt5QWindowIcon' title='Android Emulator - Pixel_3a_API_30_x86:5554' /&gt;" WaitForReady="INTERACTIVE">
+                <ui:Target.TimeoutMS>
+                  <InArgument x:TypeArguments="x:Int32" />
+                </ui:Target.TimeoutMS>
+              </ui:Target>
+            </p:CVScope.Target>
+            <p:CVScope.UseLocalServer>
+              <InArgument x:TypeArguments="x:Boolean" />
+            </p:CVScope.UseLocalServer>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </p:CVScope>
+        </FlowStep>
+      </FlowStep.Next>
+    </FlowStep>
+    <x:Reference>__ReferenceID0</x:Reference>
+  </Flowchart>
+</Activity>
